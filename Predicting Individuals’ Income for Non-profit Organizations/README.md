@@ -43,7 +43,7 @@ This project aims to predict whether an individual earns more than $50,000 annua
    ```bash
    pip install numpy pandas matplotlib scikit-learn xgboost shap
 
-Here is a `README.md` file for your project:
+
 
 ```markdown
 # Finding Donors for Charity Organization
