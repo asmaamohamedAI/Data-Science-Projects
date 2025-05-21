@@ -1,14 +1,4 @@
-asmaamohamedAI: @workspace /explain Import "folium" could not be resolved
 
-Workspace: This error means the `folium` library is not installed in your Python environment. To fix this, open the integrated terminal in Visual Studio Code and run:
-
-```
-pip install folium
-```
-
-After installation, try running your code again. If you are using a virtual environment, make sure it is activated before installing.
-
-asmaamohamedAI: write readme file for th
 # Analyzing International Immigration Flows to Canada
 
 This project analyzes international immigration flows to Canada using Python. It utilizes geospatial data visualization techniques, including choropleth maps, to represent immigration data interactively.
