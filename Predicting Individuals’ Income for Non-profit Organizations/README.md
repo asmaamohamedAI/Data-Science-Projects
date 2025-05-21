@@ -45,52 +45,7 @@ This project aims to predict whether an individual earns more than $50,000 annua
 
 
 
-```markdown
-# Finding Donors for Charity Organization
 
-This project aims to predict whether an individual earns more than $50,000 annually using data from the 1994 U.S. Census. The predictions can help non-profit organizations identify potential donors and optimize their outreach efforts. The project employs supervised learning techniques, ensemble methods, and SHAP (SHapley Additive exPlanations) for model interpretability.
-
-## Features
-
-- **Data Preprocessing**:
-  - Logarithmic transformation of skewed features.
-  - One-hot encoding for categorical variables.
-  - Normalization of numerical features.
-- **Model Training**:
-  - Implementation of various supervised learning algorithms, including:
-    - Decision Trees
-    - Logistic Regression
-    - Support Vector Machines (SVM)
-    - K-Nearest Neighbors (KNN)
-    - Gaussian Naive Bayes
-    - Linear Discriminant Analysis
-    - Multinomial Naive Bayes
-  - Comparison of models based on accuracy, F1-score, and training/testing time.
-- **Model Optimization**:
-  - Use of ensemble methods like Random Forest, AdaBoost, and XGBoost.
-  - Hyperparameter tuning using GridSearchCV.
-- **Model Interpretability**:
-  - SHAP values to explain feature importance and interactions.
-  - Visualization of feature contributions and dependence plots.
-
-## Requirements
-
-- Python 3.x
-- Required Python libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `scikit-learn`
-  - `xgboost`
-  - `shap`
-
-## Installation
-
-1. Clone this repository or download the project files.
-2. Install the required Python libraries:
-   ```bash
-   pip install numpy pandas matplotlib scikit-learn xgboost shap
-   ```
 
 ## Dataset
 
